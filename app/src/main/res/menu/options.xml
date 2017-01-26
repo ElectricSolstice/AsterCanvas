@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="New"
+        android:id="@+id/newOption"
+        app:showAsAction="never" />
+    <item android:title="Save As"
+        android:id="@+id/saveAsOption"
+        app:showAsAction="never" />
+    <item android:title="Load"
+        android:id="@+id/loadOption"
+        app:showAsAction="never" />
+    <item android:title="Color"
+        android:id="@+id/colorOption"
+        android:visible="true"
+        app:showAsAction="always"
+        android:icon="@android:drawable/title_bar" />
+    <item android:title="Brush Size"
+        android:id="@+id/brushSizeOption" />
+</menu>
